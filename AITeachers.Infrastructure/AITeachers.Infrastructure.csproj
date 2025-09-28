@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="AI\" />
+    <Folder Include="Email\" />
+    <Folder Include="Configurations\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AITeachers.Core\AITeachers.Core.csproj" />
+    <ProjectReference Include="..\AITeachers.Data\AITeachers.Data.csproj" />
+  </ItemGroup>
+
+</Project>

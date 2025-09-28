@@ -1,0 +1,58 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.slnx
+
+# Build results
+bin/
+obj/
+out/
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# NuGet
+*.nupkg
+packages/
+*.snupkg
+.nuget/
+
+# ASP.NET Core
+wwwroot/lib/
+
+# Logs
+*.log
+*.tlog
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# dotnet tools
+*.dotnet_tool
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Publish outputs
+publish/
+
+# Database
+*.mdf
+*.ldf
+*.ndf
+
+# IIS Express
+/.vs/
+/iisexpress/
+
+# User secrets
+secrets.json
