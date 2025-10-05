@@ -28,5 +28,6 @@ namespace AITeachers.Core.Domain.Entities
             IsActive = true;
             EmailConfirmed = false;
         }
+        protected User() { }
     }
 }
